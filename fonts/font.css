@@ -1,0 +1,69 @@
+@font-face {
+	font-family: "Noto Sans TC";
+	font-style: bold;
+	font-weight: 100;
+	src: url(google/NotoSansTC-Thin.woff2) format('woff2'),
+		url(google/NotoSansTC-Thin.woff) format('woff'),
+		url(google/NotoSansTC-Thin.otf) format('opentype'),
+		url(google/NotoSansTC-Thin.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: "Noto Sans TC";
+	font-style: bold;
+	font-weight: 300;
+	src: url(google/NotoSansTC-Light.woff2) format('woff2'),
+		url(google/NotoSansTC-Light.woff) format('woff'),
+		url(google/NotoSansTC-Light.otf) format('opentype'),
+		url(google/NotoSansTC-Light.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: "Noto Sans TC";
+	font-style: bold;
+	font-weight: 400;
+	src: url(google/NotoSansTC-Regular.woff2) format('woff2'),
+		url(google/NotoSansTC-Regular.woff) format('woff'),
+		url(google/NotoSansTC-Regular.otf) format('opentype'),
+		url(google/NotoSansTC-Regular.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: "Noto Sans TC";
+	font-style: bold;
+	font-weight: 500;
+	src: url(google/NotoSansTC-Medium.woff2) format('woff2'),
+		url(google/NotoSansTC-Medium.woff) format('woff'),
+		url(google/NotoSansTC-Medium.otf) format('opentype'),
+		url(google/NotoSansTC-Medium.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: "Noto Sans TC";
+	font-style: bold;
+	font-weight: 700;
+	src: url(google/NotoSansTC-Bold.woff2) format('woff2'),
+		url(google/NotoSansTC-Bold.woff) format('woff'),
+		url(google/NotoSansTC-Bold.otf) format('opentype'),
+		url(google/NotoSansTC-Bold.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: "Noto Sans TC";
+	font-style: bold;
+	font-weight: 900;
+	src: url(google/NotoSansTC-Black.woff2) format('woff2'),
+		url(google/NotoSansTC-Black.woff) format('woff'),
+		url(google/NotoSansTC-Black.otf) format('opentype'),
+		url(google/NotoSansTC-Black.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: "Wendy One";
+	font-style: bold;
+	font-weight: 900;
+	src: url(google/WendyOne-Regular.woff2) format('woff2'),
+		url(google/WendyOne-Regular.woff) format('woff'),
+		url(google/WendyOne-Regular.otf) format('opentype'),
+		url(google/WendyOne-Regular.ttf) format('truetype');
+}

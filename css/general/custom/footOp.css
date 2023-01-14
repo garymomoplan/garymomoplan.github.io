@@ -1,0 +1,68 @@
+.footer-option {
+	text-align: center;
+	line-height: 1.6rem;
+	position: fixed;
+	width: 120px;
+	bottom: 0px;
+	right: 15px;
+	color: #ffffff;
+	text-shadow: 2px 2px 0 #000000, -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000;
+	margin: 0;
+}
+
+.back-to {
+	width: 120px;
+	height: 35px;
+	z-index: 100;
+	background-color: #888888;
+	background-size: 60%;
+	border-radius: 4px;
+	border: 1px solid #000000;
+}
+.anchor1, .anchor3 {
+	padding-top: 8px;
+}
+.anchor2 b, #datatimeNum {
+	position: relative;
+	top: -4px;
+}
+.option-lr {
+	font-size: 2.4rem;
+	padding: 0px;
+	margin: 0px;
+	top: 4px;
+}
+.glyphicon-search {
+	color: #ffbbee;
+	font-size: 2.4rem;
+	top: 3px;
+}
+
+.footer-option figure {
+	position: absolute;
+	bottom: 100px;
+	right: 95px;
+	margin-bottom: 0;
+	cursor: pointer;
+}
+.footer-option figure img {
+	background-color: black;
+	border-radius: 50px;
+	width: 50px;
+	height: 50px;
+	z-index: 101;
+}
+
+.footer-option a, .footer-option a:link, .footer-option a:visited {
+	color: #ffffff;
+	text-shadow: 2px 2px 0 #000000, -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000;
+}
+.footer-option a:hover {
+	color: #ffbbee;
+	text-shadow: 2px 2px 0 #000000, -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000;
+}
+.back-to:hover, .glyphicon-search:hover {
+	color: #ffbbee;
+	border-color: #ffbbee;
+	text-shadow: 2px 2px 0 #000000, -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000;
+}

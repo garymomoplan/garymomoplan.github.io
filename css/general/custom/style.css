@@ -1,0 +1,318 @@
+body {
+	background-color: #000000;
+}
+
+.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('../../../image/general/loader.gif') 50% 50% no-repeat #000000;
+	opacity: .9;
+}
+
+.fullContain {
+	min-height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+#special-info {
+	margin-top: 4rem;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 2.2rem;
+	font-size: 2rem;
+	word-break: break-all;
+}
+
+#special-info a, #special-info a:link, #special-info a:visited, #special-info a:hover {
+	color: #aaaaaa;
+	text-decoration: none;
+}
+
+a, a:link, a:visited, a:hover {
+	text-decoration: none;
+}
+
+.modal-content {
+	border-radius: 2rem 2rem 2rem 2rem;
+	box-shadow: 5rem 1rem 15rem #000000;
+	font-family: "Noto Sans TC", sans-serif;
+	font-weight: 900;
+}
+.modal-header {
+	background-image: linear-gradient(#000000 60%, #ffbbee 90%, #ffffff 100%);
+	border-radius: 2rem 2rem 0px 0px;
+	border-bottom: 0px;
+}
+.modal-header .close {
+	color: #ffffff;
+	opacity: 1;
+}
+.modal-title {
+	color: #ffffff;
+	padding-left: 15px;
+	font-size: 4rem;
+}
+.modal-body {
+	background-image: linear-gradient(#ffffff 80%, #ffbbee 95%);
+	border-radius: 0px 0px 2rem 2rem;
+}
+.modal-body .row {
+	padding-left: 10px;
+}
+.modal-body-button {
+	margin-top: 5rem;
+}
+
+.music-items {
+	width: 80%;
+	margin-left: 10%;
+	margin-bottom: 3rem;
+}
+.music-cover {
+	position: relative;
+	cursor: pointer;
+}
+.music-cover img {
+	width: 100%;
+	position: relative;
+}
+.music-intro-name-1 {
+	color: #986db2;
+	text-shadow: 1px 1px 0 #ffffff, -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff;
+	font-size: 3rem;
+	text-align: left;
+	padding-left: 2rem;
+	font-family: "Noto Sans TC", sans-serif;
+	font-weight: 900;
+}
+.music-intro-1 {
+	background-color: #ffffff;
+	padding: 0px;
+	display: none;
+}
+.music-intro-1 img {
+	width: 100%;
+	position: relative;
+	left: -1rem;
+	top: -1rem;
+	border: white 2px solid;
+}
+.music-intro-dummy-1 {
+	background-color: #aaaaaa;
+	display: none;
+	border-bottom: #aaaaaa 1px solid;
+}
+.music-intro-dummy-2 {
+	background-color: #aaaaaa;
+	display: none;
+}
+.music-intro-buy {
+	background-color: #aaaaaa;
+	padding-top: 1rem;
+	padding-left: 1rem;
+}
+.music-intro-info {
+	padding-top: 1rem;
+}
+.music-intro-2 {
+	background-color: #aaaaaa;
+	display: none;
+}
+.music-intro-name-2, .music-tabs {
+	color: #986db2;
+	text-shadow: 1px 1px 0 #ffffff, -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff;
+	font-size: 2rem;
+	font-family: "Noto Sans TC", sans-serif;
+	font-weight: 900;
+}
+.music-intro-desc {
+	text-shadow: 1px 1px 0 #ffffff, -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff;
+	font-family: "Noto Sans TC", sans-serif;
+	font-weight: 900;
+}
+.music-intro-desc label {
+	font-size: 1.6rem;
+}
+.music-intro-desc p {
+	font-size: 1.4rem;
+}
+.music-intro-3 {
+	background-color: #aaaaaa;
+	display: none;
+	padding-top: 0.8rem;
+	padding-bottom: 0.8rem;
+}
+.music-intro-3 li {
+	margin-bottom: 1rem;
+}
+.music-list-name {
+	font-size: 1.5rem;
+	text-shadow: 1px 1px 0 #ffffff, -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff;
+	font-family: "Noto Sans TC", sans-serif;
+	font-weight: 900;
+}
+.music-list-name span {
+	font-size: 1rem;
+}
+.music-list-desc p {
+	text-shadow: 1px 1px 0 #ffffff, -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff;
+	font-family: "Noto Sans TC", sans-serif;
+	font-weight: 900;
+	font-size: 1.1rem;
+}
+.music-list-detail {
+	line-height: 2.5rem;
+	padding-bottom: 3rem;
+}
+.music-list-detail-icon {
+	position: absolute;
+	right: 5%;
+}
+.music-list-detail-icon a {
+	color: #986db2;
+	cursor: pointer;
+}
+.music-list-detail-1 {
+	text-shadow: 1px 1px 0 #ffffff, -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff;
+	font-family: "Noto Sans TC", sans-serif;
+	font-weight: 900;
+	font-size: 1.5rem;
+}
+.music-list-detail-icon .glyphicon {
+	font-size: 2.5rem;
+	top: 8px;
+}
+.music-intro-combine {
+	margin-bottom: -10px;
+	background-color: #aaaaaa;
+}
+.music-photo-item img {
+	width: 100%;
+}
+
+.music-extra-box {
+	margin-left: 3%;
+	margin-right: 3%;
+	color: #000000;
+	box-shadow: 2px 2px 5rem 1rem #ffffff;
+	font-family: "Noto Sans TC", sans-serif;
+	text-shadow: 1px 1px 0 #ffffff, -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff;
+	font-weight: 900;
+	border-radius: 9rem;
+}
+.music-extra-box .col-sm-2 {
+	background:
+		linear-gradient(to right, rgba(0,0,0,0) 0%, #ffbbee 30%, rgba(0,0,0,0) 60%)
+		left
+		bottom
+		no-repeat;
+	background-size: 98% 2px;
+	margin-bottom: 20px;
+}
+.music-extra-title {
+	padding-top: 8rem;
+	padding-left: 12%;
+	padding-right: 12%;
+	font-size: 3rem;
+}
+.music-extra-audit {
+	padding-left: 12%;
+	padding-right: 12%;
+	font-size: 1.2rem;
+}
+.music-extra-video {
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+.music-extra-video #video-block {
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-bottom: 56.25%;
+}
+.music-extra-video iframe {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.music-extra-video a, .music-extra-video a:link, .music-extra-video a:visited, .music-extra-video a:hover {
+	color: #ffbbee;
+	cursor: pointer;
+	font-size: 150%;
+}
+.music-extra-detail {
+	padding-top: 2rem;
+	padding-bottom: 10rem;
+	padding-left: 12%;
+	padding-right: 12%;
+	font-size: 1.6rem;
+}
+.music-extra-back {
+	text-align: right;
+}
+.music-extra-detail a, .music-extra-detail a:link, .music-extra-detail a:visited, .music-extra-detail a:hover {
+	color: #ffbbee;
+	cursor: pointer;
+}
+.music-extra-line {
+	border-color: #ffbbee;
+	border-style: dashed;
+}
+.music-extra-line-ext {
+	border-color: #ffbbee;
+	border-width: 3px;
+	border-radius: 3rem;
+	width: 85%;
+}
+
+.live-record-all {
+	color: #000000;
+	text-shadow: 1px 1px 0 #ffffff, -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff;
+	font-family: "Noto Sans TC", sans-serif;
+	font-weight: 900;
+}
+.live-record-intro {
+	color: #000000;
+	margin-left: 1%;
+	margin-right: 1%;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	background-color: #ffbbee;
+}
+.live-record-title p {
+	font-size: 300%;
+}
+.live-record-author {
+	text-align: right;
+}
+.live-record-desc p {
+	text-indent: 2em;
+	line-height: 4rem;
+}
+.live-record-detail {
+	margin-top: 4rem;
+	margin-bottom: 7rem;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+.live-record-detail p {
+	text-indent: 2em;
+	line-height: 4rem;
+	font-size: 120%;
+}
+.live-record-subtitle {
+	font-size: 180%!important;
+	color: #986db2;
+}

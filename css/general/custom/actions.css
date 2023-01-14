@@ -1,0 +1,190 @@
+.tags-item {
+	text-align: center;
+	cursor: pointer;
+	font-size: 32px;
+	padding-top: 0.5rem;
+	padding-left: 1.5rem;
+	padding-right: 1.2rem;
+	text-align: center;
+	color: #000000;
+	font-weight: 900;
+	text-shadow: 1px 1px 0 #ffffff, -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff;
+}
+.tags-item:hover {
+	color: #ffffff;
+	background-color: #000000;
+	text-shadow: 1px 1px 0 #ffbbee, -1px -1px 0 #ffbbee, 1px -1px 0 #ffbbee, -1px 1px 0 #ffbbee;
+}
+.tags-item p {
+	font-family: "Noto Sans TC", sans-serif;
+}
+@media (min-width: 1201px) {
+	.tags-item p {
+		font-size: 2rem;
+	}
+}
+@media (max-width: 1200px) {
+	.tags-item p {
+		font-size: 1.6rem;
+	}
+}
+@media (max-width: 639px) {
+	.tags-item p {
+		font-size: 1.2rem;
+	}
+}
+
+.actions .items {
+	margin: 1rem auto 0.5rem;
+	width: 90%;
+	border-radius: 3px;
+	font-family: "Noto Sans TC", sans-serif;
+	font-weight: 900;
+	word-break: break-all;
+}
+
+.items:not(.it-momoclo-red):not(.it-momoclo-purple):not(.it-momoclo-pink):not(.it-momoclo-yellow):not(.it-momoclo-all) {
+	display: none;
+	opacity: 0;
+}
+
+.actions .fixed {
+	margin: 1rem auto 0.5rem;
+	width: 90%;
+	border-radius: 3px;
+	font-family: "Noto Sans TC", sans-serif;
+	font-weight: 900;
+	text-align: center;
+}
+
+.actionsImg {
+	width: 100%;
+}
+
+.fixed .btn, .items .btn {
+	padding-left: 0;
+	padding-right: 0;
+	line-height:1rem;
+	width: 40px;
+	height: 2.4rem;
+	font-size: 85%;
+	margin-bottom: 3px;
+}
+
+.items-head {
+	text-align: center;
+}
+.items-tiltle {
+	font-size: 2rem;
+}
+.items-icon {
+	line-height: 3.6rem;
+	font-size: 3rem;
+	text-align: right;
+	padding-right: 4.5rem;
+}
+.items-icon a {
+	color: #986db2;
+	position: absolute;
+	cursor: pointer;
+}
+.items-detail {
+	font-size: 1.2rem;
+	line-height: 1.4rem;
+}
+.items-tiltle, .items-tiltle-ext {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.items-detail {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.live {
+	background-color: #33ffff;
+}
+.live-ext {
+	border: 3px solid #11dddd;
+	text-shadow: 1px 1px 0 #11dddd, -1px -1px 0 #11dddd, 1px -1px 0 #11dddd, -1px 1px 0 #11dddd;
+}
+.music {
+	background-color: #ff5151;
+}
+.dvdbd {
+	background-color: #fc9f4d;
+}
+.network {
+	background-color: #bb88cc;
+}
+.network-ext {
+	border: 3px solid #9966aa;
+	text-shadow: 1px 1px 0 #9966aa, -1px -1px 0 #9966aa, 1px -1px 0 #9966aa, -1px 1px 0 #9966aa;
+}
+.tvshow {
+	background-color: #cccccc;
+}
+.anime {
+	background-color: #ff88c2;
+}
+.movie {
+	background-color: #7b7b7b;
+}
+.radiosign {
+	background-color: #e0e066;
+}
+.book {
+	background-color: #bb8800;
+}
+.game {
+	background-color: #7b90d2;
+}
+.other {
+	background-color: #66ff66;
+}
+.other-ext {
+	border: 3px solid #44dd44;
+	text-shadow: 1px 1px 0 #44dd44, -1px -1px 0 #44dd44, 1px -1px 0 #44dd44, -1px 1px 0 #44dd44;
+}
+
+.it-momoclo-red {
+	background-color: #e83015;
+}
+.it-momoclo-purple {
+	background-color: #986db2;
+}
+.it-momoclo-pink {
+	background-color: #f596aa;
+}
+.it-momoclo-yellow {
+	background-color: #ffb11b;
+}
+.it-momoclo-all {
+	background-color: #ffffff;
+}
+
+.datatime {
+	color: #986db2;
+	text-align: center;
+	text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	font-family: "Noto Sans TC", sans-serif;
+	font-size: 2rem;
+	font-weight: 900;
+	background-color: #888888;
+	border-radius: 3px;
+	border: 6px solid #986db2;
+	line-height: 5rem;
+}
+
+.item-disable {
+	display: none;
+	opacity: 0;
+}
+
+#tags-all {
+	display: none;
+	opacity: 0;
+}
