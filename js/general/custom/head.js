@@ -8,22 +8,24 @@ document.writeln("<link rel='stylesheet' href='css/jquery-ui.structure.min.css' 
 document.writeln("<link rel='stylesheet' href='css/jquery-ui.theme.min.css' />");
 // bootstrap
 document.writeln("<link rel='stylesheet' href='css/bootstrap.min.css' />");
-document.writeln("<link rel='stylesheet' href='css/bootstrap-theme.min.css' />");
+//DataTables
+document.writeln("<link rel='stylesheet' href='css/general/jquery.dataTables.min.css' />");
 
 //custom
 document.writeln("<link rel='stylesheet' href='css/general/custom/style.css' />");
 document.writeln("<link rel='stylesheet' href='css/general/custom/nav.css' />");
-document.writeln("<link rel='stylesheet' href='css/general/custom/footOp.css' />");
 document.writeln("<link rel='stylesheet' href='css/general/custom/foot.css' />");
 document.writeln("<link rel='stylesheet' href='css/general/custom/actions.css' />");
 
 // JS
 // jquery
-document.writeln("<script src='js/jquery-3.3.1.min.js'></script>");
+document.writeln("<script src='js/jquery-3.6.0.min.js'></script>");
 // jquery ui
 document.writeln("<script src='js/jquery-ui.min.js'></script>");
 // bootstrap
-document.writeln("<script src='js/bootstrap.min.js'></script>");
+document.writeln("<script src='js/bootstrap.bundle.min.js'></script>");
+// DataTables
+document.writeln("<script src='js/general/jquery.dataTables.min.js'></script>");
 // GSAP
 document.writeln("<script src='js/general/TweenMax.min.js'></script>");
 document.writeln("<script src='js/general/TextPlugin.min.js'></script>");
