@@ -33,6 +33,9 @@
 	background-color: #323232;
 	background-image: none;
 }
+#momoNavtab .nav-link {
+	border-color: #986db2;
+}
 
 .dropdown-toggle::after {
 	margin-left: 0.5em;
