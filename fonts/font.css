@@ -67,3 +67,13 @@
 		url(google/WendyOne-Regular.otf) format('opentype'),
 		url(google/WendyOne-Regular.ttf) format('truetype');
 }
+
+@font-face {
+	font-family: "Reggae One";
+	font-style: bold;
+	font-weight: 400;
+	src: url(google/ReggaeOne-Regular.woff2) format('woff2'),
+		url(google/ReggaeOne-Regular.woff) format('woff'),
+		url(google/ReggaeOne-Regular.otf) format('opentype'),
+		url(google/ReggaeOne-Regular.ttf) format('truetype');
+}

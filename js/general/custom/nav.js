@@ -81,6 +81,12 @@ document.writeln("          <li><a class='dropdown-item dropdown-toggle font-wei
 document.writeln("            <ul class='submenu dropdown-menu'>");
 document.writeln("              <li><a class='dropdown-item font-weight-bold text-white' href='https://garymomoindex.github.io/oldmember/green'>-小巨人- 有安杏果</a></li>");
 document.writeln("              <li><a class='dropdown-item font-weight-bold text-white' href='https://garymomoindex.github.io/oldmember/blue'>-阿卡玲- 早見朱莉</a></li>");
+document.writeln("              <li><a class='dropdown-item font-weight-bold text-white-50' href='https://garymomoindex.github.io/oldmember/m5'>柏幸奈</a></li>");
+document.writeln("              <li><a class='dropdown-item font-weight-bold text-white-50' href='https://garymomoindex.github.io/oldmember/m4'>伊倉愛美</a></li>");
+document.writeln("              <li><a class='dropdown-item font-weight-bold text-white-50' href='https://garymomoindex.github.io/oldmember/m3'>和川ミユウ（和川未優）</a></li>");
+document.writeln("              <li><a class='dropdown-item font-weight-bold text-white-50' href='https://garymomoindex.github.io/oldmember/m2'>藤白すみれ</a></li>");
+document.writeln("              <li><a class='dropdown-item font-weight-bold text-white-50' href='https://garymomoindex.github.io/oldmember/m1'>高井つき奈</a></li>");
+document.writeln("              <li><a class='dropdown-item font-weight-bold text-white-50' href='https://garymomoindex.github.io/oldmember/m0'>川又智菜美（弓川留奈）</a></li>");
 document.writeln("            </ul>");
 document.writeln("          </li>");
 document.writeln("          <li><a class='dropdown-item font-weight-bold text-white'>桃草武士</a></li>");
