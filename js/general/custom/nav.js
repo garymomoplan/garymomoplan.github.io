@@ -9,6 +9,8 @@ document.writeln("    <ul class='navbar-nav mr-auto'>");
 document.writeln("      <li class='nav-item dropdown'>");
 document.writeln("        <a class='nav-link dropdown-toggle font-weight-bold text-white' href='#' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>穿越 -時-</a>");
 document.writeln("        <ul class='dropdown-menu'>");
+document.writeln("          <li><a class='dropdown-item font-weight-bold text-white' href='https://garymomo2024.github.io/'>&nbsp;&nbsp;&nbsp;2024</a></li>");
+document.writeln("          <li><a class='dropdown-item font-weight-bold text-white' href='https://garymomo2023.github.io/'>&nbsp;&nbsp;&nbsp;2023</a></li>");
 document.writeln("          <li><a class='dropdown-item font-weight-bold text-white' href='https://garymomo2022.github.io/'>&nbsp;&nbsp;&nbsp;2022</a></li>");
 document.writeln("          <li><a class='dropdown-item font-weight-bold text-white' href='https://garymomo2021.github.io/'>&nbsp;&nbsp;&nbsp;2021</a></li>");
 document.writeln("          <li><a class='dropdown-item font-weight-bold text-white' href='https://garymomo2020.github.io/'>&nbsp;&nbsp;&nbsp;2020</a></li>");
@@ -42,6 +44,8 @@ document.writeln("        <a class='nav-link dropdown-toggle font-weight-bold te
 document.writeln("        <ul class='dropdown-menu'>");
 document.writeln("          <li><a class='dropdown-item dropdown-toggle font-weight-bold text-white' role='button' href='#' aria-expanded='false'>依年份</a>");
 document.writeln("            <ul class='submenu dropdown-menu'>");
+document.writeln("              <li><a class='dropdown-item font-weight-bold text-white' href='https://garymomo2024.github.io/music'>&nbsp;&nbsp;&nbsp;2024</a></li>");
+document.writeln("              <li><a class='dropdown-item font-weight-bold text-white' href='https://garymomo2023.github.io/music'>&nbsp;&nbsp;&nbsp;2023</a></li>");
 document.writeln("              <li><a class='dropdown-item font-weight-bold text-white' href='https://garymomo2022.github.io/music'>&nbsp;&nbsp;&nbsp;2022</a></li>");
 document.writeln("              <li><a class='dropdown-item font-weight-bold text-white' href='https://garymomo2021.github.io/music'>&nbsp;&nbsp;&nbsp;2021</a></li>");
 document.writeln("              <li><a class='dropdown-item font-weight-bold text-white' href='https://garymomo2020.github.io/music'>&nbsp;&nbsp;&nbsp;2020</a></li>");
@@ -96,7 +100,8 @@ document.writeln("      </li>");
 document.writeln("      <li class='nav-item dropdown'>");
 document.writeln("        <a class='nav-link dropdown-toggle font-weight-bold text-white' href='#' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>台灣 -愛-</a>");
 document.writeln("          <ul class='dropdown-menu'>");
-document.writeln("            <li><a class='dropdown-item font-weight-bold text-white' href='https://garymomo2019.github.io/liveTaipei'>2019年 -台北 Legacy-</a></li>");
+document.writeln("            <li><a class='dropdown-item font-weight-bold text-white' href='https://garymomo2019.github.io/live-taipei'>2019年 台北 -永豐 Legacy Taipei-</a></li>");
+document.writeln("            <li><a class='dropdown-item font-weight-bold text-white' href='https://garymomo2024.github.io/live-taipei'>2024年 台北 -世貿一館-</a></li>");
 document.writeln("          </ul>");
 document.writeln("      </li>");
 

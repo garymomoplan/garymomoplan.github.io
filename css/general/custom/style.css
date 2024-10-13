@@ -66,3 +66,8 @@ a, a:link, a:visited, a:hover {
 .card-title {
 	color: #ffbbee;
 }
+
+.momo-font-family {
+	font-family: "Wendy One", "Reggae One", cursive, "Noto Sans TC", sans-serif;
+	font-size: 1.4rem;
+}
