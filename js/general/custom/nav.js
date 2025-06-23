@@ -9,6 +9,7 @@ document.writeln("    <ul class='navbar-nav mr-auto'>");
 document.writeln("      <li class='nav-item dropdown'>");
 document.writeln("        <a class='nav-link dropdown-toggle font-weight-bold text-white' href='#' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>穿越 -時-</a>");
 document.writeln("        <ul class='dropdown-menu'>");
+document.writeln("          <li><a class='dropdown-item font-weight-bold text-white' href='https://garymomo2025.github.io/'>&nbsp;&nbsp;&nbsp;2025</a></li>");
 document.writeln("          <li><a class='dropdown-item font-weight-bold text-white' href='https://garymomo2024.github.io/'>&nbsp;&nbsp;&nbsp;2024</a></li>");
 document.writeln("          <li><a class='dropdown-item font-weight-bold text-white' href='https://garymomo2023.github.io/'>&nbsp;&nbsp;&nbsp;2023</a></li>");
 document.writeln("          <li><a class='dropdown-item font-weight-bold text-white' href='https://garymomo2022.github.io/'>&nbsp;&nbsp;&nbsp;2022</a></li>");
@@ -44,6 +45,7 @@ document.writeln("        <a class='nav-link dropdown-toggle font-weight-bold te
 document.writeln("        <ul class='dropdown-menu'>");
 document.writeln("          <li><a class='dropdown-item dropdown-toggle font-weight-bold text-white' role='button' href='#' aria-expanded='false'>依年份</a>");
 document.writeln("            <ul class='submenu dropdown-menu'>");
+document.writeln("              <li><a class='dropdown-item font-weight-bold text-white' href='https://garymomo2025.github.io/music'>&nbsp;&nbsp;&nbsp;2025</a></li>");
 document.writeln("              <li><a class='dropdown-item font-weight-bold text-white' href='https://garymomo2024.github.io/music'>&nbsp;&nbsp;&nbsp;2024</a></li>");
 document.writeln("              <li><a class='dropdown-item font-weight-bold text-white' href='https://garymomo2023.github.io/music'>&nbsp;&nbsp;&nbsp;2023</a></li>");
 document.writeln("              <li><a class='dropdown-item font-weight-bold text-white' href='https://garymomo2022.github.io/music'>&nbsp;&nbsp;&nbsp;2022</a></li>");

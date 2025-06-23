@@ -68,6 +68,6 @@ a, a:link, a:visited, a:hover {
 }
 
 .momo-font-family {
-	font-family: "Wendy One", "Reggae One", cursive, "Noto Sans TC", sans-serif;
+	font-family: "Wendy One", "Reggae One", "Noto Sans TC";
 	font-size: 1.4rem;
 }
